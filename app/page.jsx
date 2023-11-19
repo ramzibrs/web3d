@@ -44,7 +44,7 @@ export default function Home() {
         <li><strong>Frameworks:</strong> React, Django</li>
         <li><strong>Outils de développement:</strong> Git, VS Code</li>
         <li><strong>Compétences en design:</strong> HTML, CSS, UI/UX</li>
-        <li><strong>Autres:</strong> Résolution de problèmes, Travail d'équipe</li>
+        <li><strong>Autres:</strong> Résolution de problèmes, Travail d&apos;équipe</li>
       </ul>
 
       <h3 className="text-xl font-bold mb-2">Projets Réalisés</h3>
@@ -57,7 +57,7 @@ export default function Home() {
       <p>Certification en développement web avancé - [Nom de l&apos;organisme]</p>
 
       <h3 className="text-xl font-bold mb-2">Formations Complémentaires</h3>
-      <p>Formation en design d'interface utilisateur - [Nom de l&apos;institution]</p>
+      <p>Formation en design d&apos;interface utilisateur - [Nom de l&apos;institution]</p>
 
       <h3 className="text-xl font-bold mb-2">Langues</h3>
       <p>Français (langue maternelle), Anglais (courant)</p>
