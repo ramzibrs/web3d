@@ -19,14 +19,14 @@ export default function Home() {
     <section id="about" className="mb-8">
       <div className="about-content">
         <div className="about-text">
-          <h2 className="text-3xl font-bold mb-4">À propos de moi</h2>
+          <h2 className="text-3xl font-bold mb-4">a propos de moi</h2>
           <p><strong>Nom:</strong> [BOURAS RAMZI]</p>
           <p><strong>Domaine:</strong> [INFORMATIQUE]</p>
           <p><strong>Profession/Études:</strong> [étudiant en informatique spesialité Ingénierie des Données et Technologie Web]</p>
           <p><strong>Compétences clés:</strong> [Vos compétences clés]</p>
           <p><strong>Projets:</strong> Travaillé sur des projets intéressants tels que [Nom du projet]</p>
-          <p><strong>Centres d'intérêt:</strong> [Vos centres d'intérêt]</p>
-          <p><strong>Engagements bénévoles:</strong> S'engage dans des activités bénévoles pour [Cause ou organisation]</p>
+          <p><strong>Centres d intérêt:</strong> [Vos centres d&apos;intérêt]</p>
+          <p><strong>Engagements bénévoles:</strong> S&apos;engage dans des activités bénévoles pour [Cause ou organisation]</p>
           <p><strong>Objectif professionnel:</strong> [Vos objectifs professionnels]</p>
           <p><strong>Traits de personnalité:</strong> [Traits de personnalité]</p>
           <p><strong>Passion:</strong> Passionné(e) par [Ce qui vous motive]</p>
@@ -54,10 +54,10 @@ export default function Home() {
       </ul>
 
       <h3 className="text-xl font-bold mb-2">Certifications</h3>
-      <p>Certification en développement web avancé - [Nom de l'organisme]</p>
+      <p>Certification en développement web avancé - [Nom de l&apos;organisme]</p>
 
       <h3 className="text-xl font-bold mb-2">Formations Complémentaires</h3>
-      <p>Formation en design d'interface utilisateur - [Nom de l'institution]</p>
+      <p>Formation en design d'interface utilisateur - [Nom de l&apos;institution]</p>
 
       <h3 className="text-xl font-bold mb-2">Langues</h3>
       <p>Français (langue maternelle), Anglais (courant)</p>
@@ -65,8 +65,8 @@ export default function Home() {
 
     <section id="hire-me" className="mb-8">
       <h2 className="text-3xl font-bold mb-4">Engagez-moi</h2>
-      <p>Je suis actuellement ouvert(e) à de nouvelles opportunités professionnelles. Avec des compétences solides en développement web et une passion pour [domaine spécifique], je suis prêt(e) à relever de nouveaux défis. Mon expertise comprend [compétences clés] et je suis particulièrement intéressé(e) par des projets liés à [domaines d'expertise].</p>
-      <p>N'hésitez pas à me contacter si vous recherchez un professionnel engagé et passionné pour votre équipe ou votre projet. Vous pouvez me joindre par e-mail à [votre@email.com] ou via le formulaire de contact sur mon <a href="[lien vers votre portfolio]">portfolio en ligne</a>.</p>
+      <p>Je suis actuellement ouvert(e) à de nouvelles opportunités professionnelles. Avec des compétences solides en développement web et une passion pour [domaine spécifique], je suis prêt(e) à relever de nouveaux défis. Mon expertise comprend [compétences clés] et je suis particulièrement intéressé(e) par des projets liés à [domaines d&apos;expertise].</p>
+      <p>N&apos;hésitez pas à me contacter si vous recherchez un professionnel engagé et passionné pour votre équipe ou votre projet. Vous pouvez me joindre par e-mail à [votre@email.com] ou via le formulaire de contact sur mon <a href="[lien vers votre portfolio]">portfolio en ligne</a>.</p>
     </section>
 
         <section id="portfolio" className="mb-8">
