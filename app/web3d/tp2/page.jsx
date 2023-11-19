@@ -4,7 +4,7 @@ import React from 'react'
 import scene1 from '@/public/pictures/scene.gif'
 import Image from 'next/image'
 import Link from 'next/link'
-import '@/css/style/tp2/style.css'
+import '@/css/style/tp2/style1.css'
 
 function scene() {
   return (
