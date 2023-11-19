@@ -1,0 +1,234 @@
+
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background image to the body */
+  body {
+    background-image: url('/pictures/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Text color */
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Section styling */
+  section {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header 2 styling */
+  h2 {
+    color: #2d3e50;
+  }
+  
+  /* Navigation styling */
+  nav {
+    background-color: rgba(52, 73, 94, 0.9); /* Dark blue background with some transparency */
+    padding: 15px 0;
+  }
+  
+  nav a {
+    color: #ecf0f1;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: rgba(52, 73, 94, 0.9); /* Dark blue background with some transparency */
+    color: #ecf0f1;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Add space for photos */
+  .photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .photo {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .photo:hover {
+    transform: scale(1.1);
+  }
+
+  #about {
+    background-color: #ecf0f1; /* Nouvelle couleur de fond */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-image img {
+    border-radius: 50%;
+    width: 200px; /* Ajustez la taille de la photo selon vos besoins */
+  }
+  
+  .about-text {
+    flex: 3;
+    padding-left: 20px;
+  }
+  
+  #about h2 {
+    color: rgba(52, 73, 94, 0.9); /* Nouvelle couleur pour le titre */
+  }
+  
+  #about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  #about strong {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  
+  
+  #skills {
+    background-color: #ecf0f1;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #skills h2 {
+    color: rgba(52, 73, 94, 0.9);
+  }
+  
+  #skills h3 {
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    margin-bottom: 8px;
+  }
+  
+  #skills p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  #skills strong {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  #skills a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #skills a:hover {
+    text-decoration: underline;
+  }
+
+
+  #hire-me {
+    background-color: #ecf0f1;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #hire-me h2 {
+    color: rgba(52, 73, 94, 0.9);
+  }
+  
+  #hire-me p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  #hire-me a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #hire-me a:hover {
+    text-decoration: underline;
+  }
+  
+  .portfolio-title-container {
+    background-color: rgba(52, 73, 94, 0.9);
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  .portfolio-title {
+    color: #007bff;
+    font-size: 36px;
+    margin: 0;
+    border: 2px solid #0056b3;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  
+  
+  
