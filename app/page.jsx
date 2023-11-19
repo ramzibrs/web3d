@@ -4,7 +4,7 @@ import table from '@/public/pictures/table.jpg'
 import image3 from '@/public/pictures/image3.jpg'
 import image4 from '@/public/pictures/image4.png'
 import image5 from '@/public/pictures/image5.png'
-import image6 from '@/public/pictures/image6.png'
+import image6 from '@/public/pictures/image6.PNG'
 
 import '@/css/style/home/style.css'
 
